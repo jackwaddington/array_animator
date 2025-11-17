@@ -6,12 +6,12 @@ I have been playing with addressable LEDs. As that project grows arms and legs I
 
 I have taken that to C in the CLI to simulate a problem I created:
 
-- If I were to have a strip of LEDs, and i tie them onto, for example, the corner of a table - can I walk LEDs out from the centre?
+- If I were to have a strip of LEDs, and i tie them onto, for example, the corner of a table - can I walk LEDs out from the corner?
 - When a value reaches the end of the string, it should return to its start point.
-- The split point can be animated.
+- The corner (split) point can be animated.
 
 We would need to define:
-- the point of the corner of the table.
+- the point of the corner of the table (split).
 - any trim at the ends - where the LEDs do not need to display - perhaps they are dangling off the end.
 
 
