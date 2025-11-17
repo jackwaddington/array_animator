@@ -1,10 +1,8 @@
 # array_animator
-Create an array and display it - repeat.
+_Create an array and display it - repeat._
 
 
-I have been playing with addressable LEDs.
-
-As that project grows arms and legs I saw some fun in playing with the core of how the addressable LEDs are working - arrays.
+I have been playing with addressable LEDs. As that project grows arms and legs I saw some fun in playing with the core of how the addressable LEDs are working - arrays.
 
 I have taken that to C in the CLI to simulate a problem I created:
 
