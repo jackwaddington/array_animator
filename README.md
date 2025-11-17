@@ -16,7 +16,7 @@ We would need to define the point of the corner of the table. We would need to d
 
 
 Example output: 
-
+```
 ./a.out 40 5 17 10 20
 strip_len = 40
 l_trim = 5
@@ -46,5 +46,7 @@ Running for 20 cycles.
      ----/\-----\------                 
 
 Finished.
+```
 
 
+````
