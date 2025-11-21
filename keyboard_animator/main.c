@@ -46,6 +46,34 @@ int	find_char(char c, char *keyboard, t_data d)
 
 
 
+void	disp(t_data d)
+{
+	int i;
+	int j;
+
+	char* disp[];
+
+	copy_arrays(disp, d->keyboard);
+// build display
+	while(i++ < 3)
+	{
+		while(j < strlen(disp[i])
+		{
+			if(i != d->row && j != d->pos)
+					disp[i, j] = ' ';
+		}
+	}
+
+
+// display display
+	printf("%s", displ[0]); 
+	printf("%s", displ[1]); 
+	printf("%s", displ[2]); 
+	printf("%s", displ[3]); 
+}
+
+
+
 
 
 int	main(int ac, char *av)
@@ -56,7 +84,8 @@ int	main(int ac, char *av)
 	while(av[i++])
 	{
 		check_pos(av[i++], d);
-		disp.char(d);
+		disp(d);
+
 	}
 }
 
