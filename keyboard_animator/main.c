@@ -3,7 +3,7 @@ char *["qwertyuiop[]"];
 char *["zxcvbnm,./"];
 
 typedef s_data{
-	char	*keyboard;
+	char	*keyboard[];
 	int	row;
 	int	pos;
 } t_data;
@@ -43,3 +43,23 @@ int	find_char(char c, char *keyboard, t_data d)
 		}
 	}
 }
+
+
+
+
+
+int	main(int ac, char *av)
+{
+	int i;
+	t_data d;
+
+	while(av[i++])
+	{
+		check_pos(av[i++], d);
+		disp.char(d);
+	}
+}
+
+
+
+
