@@ -1,0 +1,6 @@
+- work with a fixed array of 80 pixels - always.
+- av/ac take in positions of splits.
+- each split will have to be a struct, in an array of structs, so it has it's x and y points to track walking.
+- each split point will need to be allocated a colour - like rgb?
+- when pixels cross with each other, that pixel must be like CMYK?
+- every pixel is an X - we only work with colour now?
